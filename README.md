@@ -2,8 +2,11 @@
 My Hands on exposure to pyspark
 
 # Dataset 
-    The dataset we are going to use is the global terrorism dataset. We are going to use transformations on it and try to clean it up for visualization.
-    The dataset is going to reside inside /data folder in the project folder. 
+* The dataset we are going to use is the global terrorism dataset. 
+* We are going to use transformations on it and try to clean it up for visualization.
+* The dataset is going to reside inside /data folder in the project folder.
+* I decided to Partition the dataset by country using Pyspark because the CSV was too big for Github as a whole  
+
 
 ## Spark Managed Tables
 * Spark Managed tables have persistent metadata and uses Hive metastore to implement this. So we have to enable Hive support in our spark session via .enableHiveSupport() option
